@@ -12,10 +12,10 @@ rvm:
   - 2.6.1
   - ruby-head
 gemfile:
-  - gemfiles/4.2
-  - gemfiles/5.0
-  - gemfiles/5.1
-  - gemfiles/5.2
+  - gemfiles/4.2.gemfile
+  - gemfiles/5.0.gemfile
+  - gemfiles/5.1.gemfile
+  - gemfiles/5.2.gemfile
   - gemfiles/rails_edge.gemfile
 before_script:
   - bundle list
